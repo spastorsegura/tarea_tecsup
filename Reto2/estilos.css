@@ -1,3 +1,20 @@
 form input{
-    background: rgb(240, 240, 240);
+border: 1px solid rgb(216, 216, 216);
+margin: 10px;
+}
+
+form input:focus{
+    background-color: greenyellow;
+}
+
+button{
+    background-color:#d463a9;
+    color: white;
+    border: none;
+    width: 50px;
+    margin-top: 10px;
+}
+
+main{
+    text-align: center;
 }
