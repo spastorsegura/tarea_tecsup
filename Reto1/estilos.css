@@ -1,5 +1,42 @@
+body{
+    background-color: #f7d9d9;
+}
+header{
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px;
+}
 
+nav{
+    background-color: #dad8d8
+}
 nav ul li{
-     display: inline;
+    display: inline;
     margin: 20px;
 }
+
+main{
+    display: inline;
+    /* padding: 10px; */
+}
+
+main:first-child{
+    background-color: #fff;
+}
+
+section{
+    background-color: rgb(161, 225, 255);
+    
+}
+
+aside{
+    background-color: rgb(239, 240, 192);
+    
+}
+
+footer{
+    background-color: gray;
+    color: lime;
+    padding: 10px;
+}
+
