@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        main{
+            background-color: #000;
+            color: #fff;
+            margin: 0 auto;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+        }
+        
+        section>div{
+            margin: 20px;
+            text-align: center;
+        }
+
+        section:nth-child(1){
+            display: block;
+            text-align: center;
+            padding: 20px;
+        }
+        section:nth-child(1)>img{
+            padding: 20px;
+        }
+        section:nth-child(1)>a>img{
+            width: 20px;
+            display: flex;
+        }
+
+        section:nth-child(1)>button{
+            background-color: gray;
+            color: #fff;
+            padding: 2px 10px;
+            border: 0 solid #000;
+        }
+        
+        section:nth-child(1)>button:hover{
+            background-color: white;
+            color: #000;
+            border: 0 solid #000;
+        }
+
+        section:nth-child(2){
+            background-color: #fff;
+            color: #000;
+        }
+        section:nth-child(2) img{
+            width: 100px;
+            padding: 10px;
+        }
+        section:nth-child(2) p{
+            line-height: 25px;
+            font-size: 15px;
+        }
+        section:nth-child(2) h2{
+            color: #868ea0;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <a href="#"><img src="./menu.svg" alt="desplegable"></a><br>
+            <small>BEAUTIFUL RESPONSIVE WITH SITES</small>
+            <h1>BUILT WITH W3.CSS</h1>
+            <img src="./img.svg" alt="ilustración" width=300"> <br>
+            <button>LEARN W3.CSS</button>
+        </section>
+        <section>
+            <div>
+                <h2>Responsive</h2>
+                <img src="./imac.svg" alt="computer">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur cum.
+                </p>
+            </div>
+            <div>
+                <h2>Standard CSS</h2>
+                <img src="./css3.svg" alt="css logo">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur cum.
+                </p>
+            </div>
+            <div>
+                <h2>Design</h2>
+                <img src="./diamond.svg" alt="diamond">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur cum.
+                </p>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
