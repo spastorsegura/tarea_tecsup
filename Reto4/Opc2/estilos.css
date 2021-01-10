@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.intro{
+margin: 0 auto;
+padding: 20px;
+max-width: 900px;
+margin: 0 auto;
+font-family: sans-serif;
+
+
+display: grid;
+grid-template-columns: repeat(2,minmax(150px,1fr));
+}
+.caja2{
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center center;
+}
+.caja2 button{
+    background: #000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.caja2 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contenedor{
+    max-width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    /* grid */
+    display: grid;
+    gap: 5px;
+
+    grid-template-columns: repeat(3,minmax(150px,1fr));
+
+    font-family: sans-serif;
+}
+
+.caja{
+    background: #eee;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    place-content: center center;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.caja:nth-of-type(1){
+    background-image: url("./img/1.png");
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.caja:nth-of-type(2){
+    background-image: url("./img/2.png");
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.caja:nth-of-type(3){
+    background-image: url("./img/3.png");
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.caja:nth-of-type(4){
+    background-image: url("./img/4.png");
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.caja:nth-of-type(5){
+    background-image: url("./img/5.png");
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.caja:nth-of-type(6){
+    background-image: url("./img/6.png");
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.caja:nth-of-type(7){
+    background-image: url("./img/7.png");
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.caja:nth-of-type(8){
+    background-image: url("./img/8.png");
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.caja:nth-of-type(9){
+    background-image: url("./img/9.png");
+    grid-column: span 1;
+    grid-row: span 1;
+}
