@@ -7,12 +7,32 @@ https://www.youtube.com/watch?v=kRbAuj_CgnI
  var inputTexto=document.getElementById("todo");
  var formulario=document.getElementById("registro");
  var btnSubmit=document.getElementById("btn");
+ var divtodo=document.getElementById("list");
  var arreglo=[];
+ var tareas="";
+ var i=0;
+
 
  formulario.addEventListener("submit",function(e){
      e.preventDefault();
 
     arreglo.push(inputTexto.value);
     console.log(arreglo);
-
+    agregar();
  })
+
+ function agregar(){
+    tareas=tareas+
+    `<li>${arreglo[i]}</li>`
+
+    divtodo.innerHTML=tareas
+    i++;
+}
+
+/* list.addEventListener("click",function(e){
+    if(e.target.tagName=="LI"){
+        e.target.classList.toggle("checked");
+    }
+}) */
+
+
