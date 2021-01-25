@@ -11,10 +11,9 @@ var arreglo=[];
 formulario.addEventListener("submit",function(e){
     e.preventDefault();
 
-    var objTask={
-        task:inputTexto
-    }
+    arreglo.push(inputTexto.value);
 
-    var objATexto=JSON.stringify(objTask)
-    console.log(objATexto)
+    console.log(arreglo);
 })
+
+
