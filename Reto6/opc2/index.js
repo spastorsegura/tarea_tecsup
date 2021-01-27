@@ -29,10 +29,6 @@ https://www.youtube.com/watch?v=kRbAuj_CgnI
     i++;
 }
 
-/* list.addEventListener("click",function(e){
-    if(e.target.tagName=="LI"){
-        e.target.classList.toggle("checked");
-    }
-}) */
+/* ∫ */
 
 
