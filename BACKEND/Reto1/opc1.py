@@ -7,8 +7,16 @@ nombre=input("ingrese su nombre")
 edad=input("ingrese su edad")
 ahora=datetime.now()
 hora=time(ahora.hour)
+format_hora="%H:%M:%S"
 
-if hora<=16:
-    print("Hola",nombre,"Debe ir a dormir")
+ha=time.strftime(hora,format_hora)
+
+if int(edad) <18:
+    if ha>="18:00:00":
+        print("Hola",nombre,"Debe ir a dormir")
+    else:
+        print("Hola",nombre,"Hacer la tarea")
 else:
-    print("Hola",nombre,"Hacer la tarea")
+    print("No está obligado hacer nada")
+
+
